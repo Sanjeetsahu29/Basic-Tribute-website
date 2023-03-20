@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #e5e5fd;
+    border: 10px solid teal;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.image_container,img{
+    width: 300px;
+    height: 320px;
+    /*overflow: hidden;*/
+    border-radius: 50%;
+
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:100px ;
+}
+
+.top-section h1{
+    font-size: 3.5rem;
+    font-weight:bold ;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+
+.top-section h4{
+    text-align: end;
+    font-size: 1.2rem;
+}
+
+.about{
+    margin-top: 100px;
+}
+.about h2{
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.bio{
+    margin-top: 50px;
+}
+
+.bio h3{
+    font-size: 1.5rem;
+    font-weight: 250;
+    margin-bottom: 15px;
+}
+
+.bio ul{
+    padding-left:40px ;
+}
+
+.more{
+    margin: 20px 0;
+}
+
+.more p{
+    text-align: end;
+}
+
+/* W R O N G  W A Y  T O   R E M O V E  U N D E R L I N E  F R O M  T H E  L I N K
+.link{
+    text-decoration: none;
+}
+*/
+
+.more a{
+    text-decoration: none ;
+    display: inline-block;
+    padding: 5px;
+    transition: 1s;
+}
+.more a:link{
+    color: goldenrod;
+}
+.more a:visited{
+    color: cornflowerblue;
+}
+
+.more a:hover{
+    border-radius: 20px;
+    background-color: steelblue;
+    color: whitesmoke;
+
+}
+
+::selection{
+    background-color: darkcyan;
+    color: white;
+}
